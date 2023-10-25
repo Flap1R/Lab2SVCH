@@ -1,0 +1,45 @@
+/* Обновленные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Переопределение стилей для header */
+.header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* добавлен отступ снизу */
+}
+
+.input, button {
+    font-size: 1em;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.figure {
+    margin: 10px;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
